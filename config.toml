@@ -1,0 +1,76 @@
+baseurl = "http://replace-this-with-your-hugo-site.com/"
+
+languageCode = "en-us"
+defaultContentLanguage = "en"
+DefaultContentLanguageInSubdir = true
+
+
+[params]
+  switchlang = true
+  paginate = "10"
+
+[Languages]
+[Languages.en]
+title = "My blog"
+
+[Languages.es]
+title = "Mi blog"
+
+[Languages.fr]
+title = "Mon blog"
+
+
+
+[[Languages.en.menu.switchlang]]
+  name = "English"
+  identifier = ""
+  weight = 1
+  url = "en"
+
+[[Languages.en.menu.switchlang]]
+  name = "Español"
+  identifier = ""
+  weight = 2
+  url = "es"
+
+[[Languages.en.menu.switchlang]]
+  name = "Français"
+  identifier = ""
+  weight = 3
+  url = "fr"
+
+[[Languages.es.menu.switchlang]]
+  name = "English"
+  identifier = ""
+  weight = 1
+  url = "en"
+
+[[Languages.es.menu.switchlang]]
+  name = "Español"
+  identifier = ""
+  weight = 2
+  url = "es"
+
+[[Languages.es.menu.switchlang]]
+  name = "Français"
+  identifier = ""
+  weight = 3
+  url = "fr"
+
+[[Languages.fr.menu.switchlang]]
+  name = "English"
+  identifier = ""
+  weight = 1
+  url = "en"
+
+[[Languages.fr.menu.switchlang]]
+  name = "Español"
+  identifier = ""
+  weight = 2
+  url = "es"
+
+[[Languages.fr.menu.switchlang]]
+  name = "Français"
+  identifier = ""
+  weight = 3
+  url = "fr"
